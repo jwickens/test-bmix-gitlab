@@ -1,0 +1,14 @@
+language: node_js
+
+node_js:
+  - 8.0
+
+deploy:
+  edge: true
+  provider: bluemixcloudfoundry
+  username: jonathan.wickens@gmail.com
+  password:
+    secure: iY5sjO4uGbE5NpNveLYdNtuNXlacWe/P933NWOjpwBfbWPUwqgdnNHvUGyJcCPEzTZhkI6TbBHMNTHZ/FrEMLWytJ7ySv+mc2Xgm0X5PjiC8s/EJXR2CsBcCDOVmIyEVBqcAqO+KUVv4AZsqvxGLmwBKrA+mrESve3ZJlmMZp6eGZGhDpSzDeZ7Cn8h8WQCxDS71c/7rHVO6ZVb9itSuQ0zi5bGu1zWEi6l41cmoO8EgEHav3UVj4U4YxZr/VZNGfp3co8C5lqgAu5wHibH7x+lK4IGh25tMsYMVeHtpQBlXwvTwI2LCskk/fdyDyacw6a+ZSbqPdb8NXxprIfsx6JBALq4LsSy/s+AMOO5ii6JF4oix/cMrmte4AqZCjPHWcmvn1rGMMJkonFS5pYYsq2d1+bhfW28hZTAQsyM4iEdBKb7vahD3dasdc91OjTjdo0xasWeTHYbiHEa1mh+q+mXqRJxdNznhVVAbHk7ZbnVkNbj0UKuSGtUBDxK1+eu0stp6+MDz3x+CkqQJMNBlXxgO1/YTk0GxztrShpd5kR90KfWjhp7CmBI0fE7pNUkPePIVG2iENnVnBXRo6sKvbmMgEJrrer1XhIMChMpB7OkUXtbIoQhEji3LXUMwofTrz1B5B2gokhNvO7bLUJAY4Tiby1tUD9ZmSvThRZ6EH8U=
+  organization: humaniseai
+  space: dev
+  region: eu-gb
